@@ -1,0 +1,16 @@
+{
+  "name": "cart",
+  "version": "1.0.0",
+  "description": "cart",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "@vue/cli-service": "^4.5.19",
+    "vue": "^2.7.16"
+  }
+}
