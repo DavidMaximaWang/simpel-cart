@@ -29,8 +29,6 @@ export default {
     },
     methods: {
         addToCart(id) {
-            // alert(id)
-            // eslint-disable-next-line no-debugger
             const prod = this.cartList.find(item=> item.id === id)
             if(prod) {
                 prod.quantity++
